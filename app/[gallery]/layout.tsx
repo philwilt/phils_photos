@@ -1,13 +1,9 @@
-import RootLayout from "../layout";
+import react from 'react';
 
 export default function GalleryLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <>
-      {children}
-    </>
-  );
+  return (<div className="gallery">{children}</div>);
 }
